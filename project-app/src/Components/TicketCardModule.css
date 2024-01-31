@@ -1,0 +1,72 @@
+.ticketCardContainer {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.paymentMethodContainer {
+  margin-bottom: 20px;
+}
+
+.paymentMethodLabel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.paymentMethodInput {
+  margin-right: 10px;
+}
+
+.paymentIcon {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+}
+
+.cardDetailsContainer {
+  margin-top: 20px;
+}
+
+.textInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.textInputWide {
+  width: calc(50% - 10px);
+  margin-right: 10px;
+}
+
+.textInputNarrow {
+  width: calc(50% - 10px);
+  margin-left: 10px;
+}
+
+.errorLabel {
+  color: #f00;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.submitButton {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submitButton:hover {
+  background-color: #45a049;
+}
